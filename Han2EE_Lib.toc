@@ -1,0 +1,14 @@
+## Interface: 11200
+## Title: Han2EE libs
+## Notes: Create functions for micro usage.
+## Author: Han2EE
+## Version: 1.0
+
+## localization
+enUS.lua
+zhCN.lua
+
+## Main
+core.lua
+
+hunter.lua

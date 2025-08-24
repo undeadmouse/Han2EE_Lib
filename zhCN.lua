@@ -1,0 +1,29 @@
+-- Make the table available to the main file
+L = H2E_Locale
+if (GetLocale() == "zhCN") then
+    L.RANK_ONE         = "等级 1"
+    L.AUTO_SHOT        = "自动射击"
+    L.ATTACK           = "攻击"
+    L.ARCANE_SHOT      = "奥术射击"
+    L.CALL_PET         = "召唤宠物"
+    L.MULTI_SHOT       = "多重射击"
+    L.CONCUSSIVE_SHOT  = "震荡射击"
+    L.HUNTER_MARK      = "猎人印记"
+    L.Raptor_STRIKE    = "猛禽一击"
+    L.MONGOOSE_BITE    = "猫鼬撕咬"
+    L.SERPENT_STING    = "毒蛇钉刺"
+    L.CORPID_STING     = "蝎毒钉刺"
+    L.WING_CLIP        = "摔绊"
+    L.THROW            = "投掷"
+    L.YOUR_AUTO_SHOT   = "你的自动射击"
+    L.ASPECT_HAWK      = "雄鹰守护"
+    L.ASPECT_MONKEY    = "猴子守护"
+    L.ASPECT_CHEETAH   = "猎豹守护"
+    L.ASPECT_WOLF      = "孤狼守护"
+    L.ERROR_FEED_PET   = "宠物不快乐，但背包中没有找到合适的食物"
+    -- weapon type
+    L.WEAPON_BOWS      = "弓"
+    L.WEAPON_GUNS      = "枪械"
+    L.WEAPON_CROSSBOWS = "弩"
+    L.WEAPON_THROWN    = "投掷武器"
+end
