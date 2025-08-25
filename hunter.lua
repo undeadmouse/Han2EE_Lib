@@ -109,7 +109,7 @@ if classID == "HUNTER" then
                 -- toggle auto attack
                 AttackTarget(TARGET)
             end
-            if not T.WOLF then
+            if not T.WOLF and UnitHealth(TARGET) > UnitHealthMax(TARGET) * 0.4 then
                 T.CastSpellByName(L.ASPECT_WOLF)
             end
             T.CastSpellByName(L.MONGOOSE_BITE, LOW_RATIO)
@@ -131,7 +131,7 @@ if classID == "HUNTER" then
                 UseAction(1)
             end
             -- change to aspect of the hawk
-            if not T.HAWK then
+            if not T.HAWK and UnitHealth(TARGET) > UnitHealthMax(TARGET) * 0.4 then
                 T.CastSpellByName(L.ASPECT_HAWK)
             end
             if mark then
