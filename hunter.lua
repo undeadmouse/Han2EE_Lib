@@ -143,7 +143,7 @@ if classID == "HUNTER" then
                     end
                     T.CastSpellByName(L.THROW)
                     if not T.TARGET_STING and T.GetSpellCooldown(T.SPELL_IDS[L.THROW]) > 0 then
-                        T.CastSpellByName(L.MULTI_SHOT, LOW_RATIO)
+                        T.CastSpellByName(L.MULTI_SHOT, 1) -- always rank 1
                     end
                 else
                     if not IsUsableAction(1) then
