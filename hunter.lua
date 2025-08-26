@@ -79,6 +79,7 @@ if classID == "HUNTER" then
             T.CastSpellByName(L.CALL_PET)
         end
         PetAttack()
+        -- T.CastSpellByName(L.KILL_COMMAND)
         if not UnitExists("party4") then
             PetDefensiveMode()
         end

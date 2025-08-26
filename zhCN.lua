@@ -20,6 +20,7 @@ if (GetLocale() == "zhCN") then
     L.ASPECT_MONKEY    = "猴子守护"
     L.ASPECT_CHEETAH   = "猎豹守护"
     L.ASPECT_WOLF      = "孤狼守护"
+    L.KILL_COMMAND     = "杀戮命令"
     L.ERROR_FEED_PET   = "宠物不快乐，但背包中没有找到合适的食物"
     -- weapon type
     L.WEAPON_BOWS      = "弓"

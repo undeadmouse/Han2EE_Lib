@@ -18,6 +18,7 @@ local L = {
     ASPECT_MONKEY    = "Aspect of the Monkey",
     ASPECT_CHEETAH   = "Aspect of the Cheetah",
     ASPECT_WOLF      = "Aspect of the Wolf",
+    KILL_COMMAND     = "Kill Command",
     ERROR_FEED_PET   = "Pet is unhappy, and can't find food in bag",
     -- weapon type
     WEAPON_BOWS      = "Bows",

@@ -57,6 +57,9 @@ T.GetSpellCooldown = function(spellID, bookType)
     if bookType then
         myBookType = bookType
     end
+    if not spellID then
+        return -1
+    end
     local start, duration = GetSpellCooldown(spellID,myBookType)
     local currentTime = GetTime();
 
